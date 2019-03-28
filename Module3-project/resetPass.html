@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Reset password</title>
-    </head>
-    <body>
-            <header>
-            <h1 style="background-color:beige; color:brown; ">Reset password:</h1><hr>
-        </header>
-        <br>
-        <br>
-        <section>
-            <b style="color:wheat; font: bold 15px arial, sans-serif;">User name:</b>
-            <input id="user-name" type="text" placeholder="your username here ...">
-        </section>
-        <section>
-            <b style="color:wheat; font: bold 15px arial, sans-serif;">Your Email : </b>
-            <input type="text" >
-        </section>
-        <section>
-                <input id="input7" type="submit" style="height: 50px;
-                 width: 100px; text-align: center; margin-left: 70px ; margin-bottom: 20px; margin-top: 20px;
-                  font: bold 15px arial, sans-serif;color: white; 
-                  border-style: outset;border-color: #0066A2;
-                  text-shadow:none;
-                  background: #0066A2;">
-            </section>
-        <br>
-        <hr>
-        <footer>
-            <h3 ><a href="HomePage.html" style="color:darkslategray">back to main page</a></h3>
-        </footer>
-    </body>
+<head>
+        <link rel="stylesheet" href="resetPass.css">
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            
+            <a href="HomePage.html"><h3 class="inactive underlineHover"> Home Page </h2></a>
+            <h3 class="active"> Reset password </h3> 
+          <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="c:/repos/Web-PhaseHtml/Module3-project/reset.png" id="icon" alt="User Icon" style="width:100px; height:90px" />
+            </div>
+            
+            <!-- Login Form -->
+            <form>
+                <input type="email" id="login" class="fadeIn second" name="email" placeholder="Email">
+                <input type="password" id="password" class="fadeIn third" name="login" placeholder="Password">
+                <input type="submit" class="fadeIn fourth" value="submit">
+            </form>
+            
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="sign-in.html">already have an acount?</a>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
 </html>

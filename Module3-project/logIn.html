@@ -2,39 +2,43 @@
 <html>
     <head>
         <title><strong style="color:thistle; background-color:beige">Log In !</strong></title>
+        <link rel="stylesheet" type="text/css" href="logIn.css">
     </head>
-    <body>
-        <header>
-            <h1 style="background-color:beige; color:brown; ">Log-In page:</h1><hr>
-        </header>
-        <br>
-        <br>
-        <section>
-            <b style="color:wheat; font: bold 15px arial, sans-serif; " >User name:</b>
+    <body><a href="#top"><img class = "fixed" src="C:/Users/Mahan/Pictures/Red_Arrow_Top-512.png"></a>
+                <header>
+                            <ul>    
+                                    <li><a href="HomePage.html">HomePage</a></li>
+                                    <li><a href="aboutMe.html">aboutMe</a></li>
+                                    <li><a href="signIn.html">Sign-in</a></li>
+                                    <li><a href="logIn.html">Log In page</a></li>
+                                    <li><a href="resetPass.html">Reset password</a></li>
+                                    <li><a href="CV.html"></a></li>
+                            </ul>
+                </header>
+                <br>
+                <br>
+                <br>
+                <br>
+                     <section>
+            <b id="userName" >User name:</b>
             <input id="user-name" type="text" placeholder="your username here ...">
         </section>
         <section>
-            <b style="color:wheat; font: bold 15px arial, sans-serif;">Password : </b>
+            <b id="password">Password : </b>
             <input type="password" placeholder="********">
         </section>
         <section>
-                <input id="input7" type="submit" style=" height: 50px; text-align: center; vertical-align:text-top;
-                 margin-left: 100px; margin-bottom: 10px; margin-top: 20px;
-                 width: 100px; text-align: center; align-content: space-around;
-                  font: bold 15px arial, sans-serif;color: white; 
-                  border-style: outset;border-color: #0066A2;
-                  text-shadow:none;
-                  background: #0066A2;">
+                <input id="submitButton" type="submit">
             </section>
         <br>
         <hr>
         <footer >
-            <section id = "footer-section1" style = "font: bold 15px arial, sans-serif;">Don't have an account? 
+            <section class = "footer-section" >Don't have an account? 
                 <a href="signIn.html">click here.</a></section>
-            <section id = "footer-section2" style="font: bold 15px arial, sans-serif;">
+            <section class = "footer-section" >
                      forgot your password? <a href="resetPass.html">click here</a>
                 </section>
-                <h3 ><a href="HomePage.html" style="color:darkslategray">back to main page</a></h3>
+                <h3 ><a id="backToMainPage" href="HomePage.html" >back to main page</a></h3>
         </footer>
     </body>
 </html>
